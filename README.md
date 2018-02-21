@@ -2,7 +2,9 @@
 
 This repository contains code for [UBC ACM
 practices](http://www.cs.ubc.ca/~acm-web/practice/) and
-[Codeforces](http://codeforces.com/) contests. Since there are no marks for
-programming style in these contests, the focus is not on coding style, but on
-problem solving. Most of the contests are done individually but some are in
-teams of 2 or 3.
+[Codeforces](http://codeforces.com/) contests. The problem statements for each
+contest can be found on these websites. Most of the contests are done
+individually but some are in teams of 2 or 3.
+
+The focus is on problem solving, and not on coding style. So the code in this
+repsitory might not follow good practices!
