@@ -1,8 +1,8 @@
 *
-!.md
-!.cpp
-!.py
-!.cc
+!*.md
+!*.cpp
+!*.py
+!*.cc
 !*/
 
 # # Prerequisites
