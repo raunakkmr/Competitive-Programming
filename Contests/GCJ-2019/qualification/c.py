@@ -2,7 +2,9 @@ import math
 import string
 
 t = int(input())
+mapping = dict()
 for tc in range(t):
+    mapping.clear()
     n, l = [int(x) for x in input().split()]
     vals = [int(x) for x in input().split()]
     g = math.gcd(vals[0], vals[1])
@@ -10,7 +12,6 @@ for tc in range(t):
     for i in range(l):
         primes.append(vals[i] // primes[-1])
     sorted_primes = sorted(list(set(primes)))
-    mapping = dict()
     for (i, ch) in enumerate(string.ascii_uppercase):
         mapping[sorted_primes[i]] = ch
     ans = ''
